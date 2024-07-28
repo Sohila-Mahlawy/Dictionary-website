@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary Website</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+
+		</div>
+		<br>
+<h1 class="title">Please Enter a Word</h1>
+		<div class="start">
+			<form class="start" action="{{ url_for('start') }}" method="post">
+				<input style="color:#92DCEC; width:400px; height:50px; font size:30pt; text-align: center;" class="word" type="text" placeholder="word" name="word" required><br>
+
+				<button style="width:200px; height:50px; font size: 30pt; text-align: center;" type="submit" class="btn btn-outline-primary" >SUBMIT</button>
+				</form>
+        </div>
+
+</body>
+</html>
